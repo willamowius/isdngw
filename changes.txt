@@ -1,0 +1,20 @@
+Changes from version 0.3.5 to 0.4.0
+-----------------------------------
+- update for PBoolean chnage in PTLib and H323Plus
+- fix small memory corruption bug
+- fix gcc 4.3.x warnings
+
+Changes from version 0.3.4 to 0.3.5
+-----------------------------------
+- remove use of exceptions for easier compatibility
+
+Changes from version 0.3.3 to 0.3.4
+-----------------------------------
+- port to PWLib 1.8.1 and OpenH323 1.15.1 (incl. plugable codecs)
+- removed alaw and GSM codec options
+- detection of stale ISDN device lockfiles
+
+Changes from version 0.3.2 to 0.3.3
+-----------------------------------
+- bugfix: make -i switch work
+

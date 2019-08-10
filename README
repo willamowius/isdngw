@@ -1,0 +1,11 @@
+isdngw
+======
+
+isdngw is a gateway between telephony on ISDN and telephony on IP networks
+using H.323. It is based on OpenH323 and ISDN4Linux. The gateway uses ISDN to
+make and receive calls but any type of phone (pots, mobiles...) can call and
+be called.
+
+See the web page for documentation: https://www.gnugk.org/h323-isdn-gw.html
+
+

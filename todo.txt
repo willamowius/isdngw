@@ -1,0 +1,3 @@
+- only works with the soon to be removed isdn4linux, not with mISDN
+- no comments allowed in config ??
+
