@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="isdngw" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="optnoshared">
+				<Option platforms="Unix;" />
+				<Option output="obj_linux_x86_64_s/isdngw" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+			</Target>
+			<Target title="debugnoshared">
+				<Option platforms="Unix;" />
+				<Option output="obj_linux_x86_64_d_s/isdngw" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="alaw.hxx" />
+		<Unit filename="audio_delay.cxx" />
+		<Unit filename="audio_delay.hxx" />
+		<Unit filename="config.cxx" />
+		<Unit filename="config.hxx" />
+		<Unit filename="connection.cxx" />
+		<Unit filename="connection.hxx" />
+		<Unit filename="dsp.cxx" />
+		<Unit filename="dsp.hxx" />
+		<Unit filename="endpoint.cxx" />
+		<Unit filename="endpoint.hxx" />
+		<Unit filename="lcr.cxx" />
+		<Unit filename="lcr.hxx" />
+		<Unit filename="loopchannel.cxx" />
+		<Unit filename="loopchannel.hxx" />
+		<Unit filename="main.cxx" />
+		<Unit filename="nullchannel.cxx" />
+		<Unit filename="nullchannel.hxx" />
+		<Unit filename="pots.cxx" />
+		<Unit filename="pots.hxx" />
+		<Unit filename="potschannel.cxx" />
+		<Unit filename="potschannel.hxx" />
+		<Unit filename="resource.cxx" />
+		<Unit filename="resource.hxx" />
+		<Unit filename="routing.cxx" />
+		<Unit filename="routing.hxx" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
